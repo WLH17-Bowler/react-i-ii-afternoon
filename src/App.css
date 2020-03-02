@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.App-header {
+  width: 100%;
+  background-color: rgb(41, 161, 209);
+  font-weight: bold;
+  font-size: xx-large;
+  padding-left: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#bulk {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+#white-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(20, 20, 20);
+  width: 90%;
+  height: 100vh;
+  /* margin-top: 100px; */
+}
+
+#slide-num {
+  display: flex;
+  justify-content: flex-end;
+  height: 20px;
+  font-weight: bold;
+}
+
+#person-main {
+  background-color: whitesmoke;
+  /* border-radius: 20px; */
+  width: 500px;
+  padding: 25px;
+}
+
+#navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+}
+
+button {
+  border-radius: 5px;
+}
+
+#edit {
+  background-color: rgb(41, 161, 209);
+  color: white;
+  border-color: rgb(41, 161, 209);
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50px;
+  padding: 5px;
+  width: 50px;
+}
+
+#click {
+  background-color: rgb(20, 20, 20);
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
